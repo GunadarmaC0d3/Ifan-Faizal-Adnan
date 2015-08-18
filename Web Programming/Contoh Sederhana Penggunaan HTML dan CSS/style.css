@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #fff3ca;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container{
+	background: url(images/content-bg.png) no-repeat;
+	height: 493px;
+	width: 1229px;
+	margin: 0 auto;	
+	margin-top: 43px;
+	margin-bottom: 43px;
+}
+
+#header{
+	background: url(images/header-bg.png) repeat-x;
+	padding: 0 0 97px 0;
+}
+
+#header h1#logo{
+	float: left;
+	margin: 21px 0 0 68px;
+}
+
+#header ul#navigation{
+	float: right;	
+	list-style-type: none;
+	margin: 37px 68px 0 0;
+}
+
+#header ul#navigation li{
+	display: inline;
+	margin: 0 0 0 40px;
+}
+
+#header ul#navigation li a{
+	font-size: 22px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-decoration: none;
+	color: #000;
+}
+
+#header ul#navigation li a:hover{
+	background: url(images/button-hover.png) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+#container #content-post{
+	width: 736px;
+	margin: 43px 0 39px 21px;
+	padding: 125px 0 39px 21px;
+}
+
+#container #content-post #post-date{
+	background: url(images/date-bg.png) no-repeat;
+	float: left;
+	width: 73px;
+	height: 73px;
+	text-align: center;
+	margin: 0 20px 0 0;
+	padding: 15px 0 0 0;
+}
+
+#container #content-post #post-date p{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 24px;	
+	color: #fff;
+}
+
+#container #content-post #post-date span{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#container #content-post h3.post-title-link{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 48px;
+	padding-top: 2px;
+}
+
+#container #content-post a{
+	text-decoration: none;
+	color: #0CB4B1;
+}
+
+#container #content-post a:hover{
+	color: #0D10AF;
+}
+
+#container #content-post p.post-preview{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+	text-align: justify;
+	margin-top: 20px;	
+	overflow: hidden;
+}
+
+#container #content-post ul.post-meta{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#container #content-post ul.post-meta li{
+	display: inline;	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+}
+
+#container #content-sidebar{
+	width: 326px;
+	float: right;
+	position: relative;
+	margin-top: -350px;
+	margin-right: 20px;
+}
+
+#container #content-sidebar h4.sidebar-title{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 25px;	
+	margin: 30px 0 30px 0;
+}
+
+#container #content-sidebar ul li{
+	margin: 5px 0 5px 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;
+}
+
+#container #content-sidebar ul li a{
+	text-decoration: none;
+	color: #0CB4B1;
+}
+
+#container #content-sidebar ul li a:hover{
+	color: #0D10AF;
+}
+
+#submit-button{
+	background: url(images/submit-button.png) no-repeat;
+	background-size: 100% 100%;
+	width: 95px;
+	height: 35px;
+	padding: 10px;
+}
+
+#submit-button:hover{
+	background: url(images/submit-button-hover.png) no-repeat;
+	background-size: 100% 100%;
+	width: 95px;
+	height: 35px;
+	padding: 10px;
+}
+
+#text-subscribe{
+	height: 27px;	
+}
+
+#footer{
+	background: url(images/footer-bg.png) repeat-x;
+	padding: 0 0 97px 0;
+}
+
+#footer ul.credits{
+	float: left;
+	margin: 40px 0 37px 42px;	
+}
+
+#footer ul.credits li{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 20px;	
+}
